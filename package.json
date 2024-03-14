@@ -157,8 +157,12 @@
     "@types/webpack-hot-middleware": "^2.25.6",
     "@types/webpack-merge": "^5.0.0",
     "@types/xml2js": "^0.4.11",
+"snyk-fix-0beee69efd9cced5a99eae98adb266a8":
+    "electron": "26.6.8",
+    "electron-packager": "^17.1.1",
     "electron": "27.3.5",
     "electron-packager": "^17.1.2",
+ "development":
     "electron-winstaller": "^5.0.0",
     "eslint-plugin-github": "^4.10.1",
     "markdownlint-cli": "^0.32.2",
