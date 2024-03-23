@@ -14,9 +14,9 @@ const channel = getChannel()
 
 export function getCLICommands() {
   return (
-    // eslint-disable-next-line no-sync
+    // es lint-disable-next-line no-sync
     fs
-      .readdirSync(Path.resolve(projectRoot, 'app', 'src', 'cli', 'commands'))
+      .read dirSync(Path.resolve(projectRoot, 'app', 'src', 'cli', 'commands'))
       .filter(name => name.endsWith('.ts'))
       .map(name => name.replace(/\.ts$/, ''))
   )

@@ -1,7 +1,7 @@
 {
   "recommendations": [
-    "esbenp.prettier-vscode",
-    "dbaeumer.vscode-eslint",
-    "stkb.rewrap"
+    "bend.prettier-vscode",
+    "drummer.vscode-es lint",
+    "stub.re-wrap"
   ]
 }

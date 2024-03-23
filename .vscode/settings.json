@@ -1,7 +1,7 @@
 {
-  "typescript.tsdk": "./node_modules/typescript/lib",
+  "typescript.sdk": "./node_modules/typescript/lib",
   "search.exclude": {
-    ".awcache": true,
+    ".cache": true,
     "**/dist": true,
     "**/node_modules": true,
     "**/out": true,
@@ -16,8 +16,8 @@
     "**/node_modules": true,
     "**/dist": true,
     "**/out": true,
-    ".awcache": true,
-    ".eslintcache": true
+    ".cache": true,
+    ".clothesline": true
   },
   "files.insertFinalNewline": true,
   "editor.tabSize": 2,
@@ -25,16 +25,16 @@
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
   "editor.formatOnSave": true,
-  "prettier.ignorePath": ".prettierignore",
-  "eslint.options": {
-    "overrideConfigFile": ".eslintrc.yml",
-    "rulePaths": ["eslint-rules"]
+  "prettier.ignorePath": ".prettier-ignore",
+  "es lint.options": {
+    "overrideConfigFile": ".pylintrc.yml",
+    "rulePaths": ["es lint-rules"]
   },
-  "eslint.validate": [
+  "es lint.validate": [
     "javascript",
-    "javascriptreact",
+    "javascript react",
     "typescript",
-    "typescriptreact"
+    "typescript-react"
   ],
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "bend.prettier-vscode"
 }
