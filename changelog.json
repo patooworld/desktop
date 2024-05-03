@@ -1,5 +1,52 @@
 {
   "releases": {
+    "3.3.15-beta1": [
+      "[New] Reset to a previous commit - #12393",
+      "[Added] The diff view now highlights Zig syntax - #17957. Thanks @imkylecat!",
+      "[Fixed] Remove unnecessary br elements to make the app easier to navigate with screen readers - #18444, #18436",
+      "[Fixed] Prevent clipping of dialog controls and content when app is zoomed - #18412"
+    ],
+    "3.3.14": [
+      "[Fixed] The tab panel semantics in the \"Publish Repository\" and \"Clone a Repository\" are announced by screen readers - #18408",
+      "[Fixed] The check all button in the diff always only represents one selectable group - #18422",
+      "[Fixed] Images diffs of less than 200px in width do not render with a zero width for diff views other than `2-up` - #18405",
+      "[Fixed] Fix list accessibility semantics of the Pull Request list - #18397",
+      "[Fixed] Fix screen reader support of warning dialogs - #18371",
+      "[Fixed] Selecting the \"Configure manually\" radio option does not cause unexpected focus shift to the name input in the Git Configuration page of the welcome flow - #18341",
+      "[Fixed] All dialogs can be closed by pressing Esc - #18335",
+      "[Improved] The force push warning in the push dropdown now has a contrast of 4.5:1 - #18415",
+      "[Improved] Hyphen replacement and invalid sanitized name warnings and errors in the create branch and create repository dialogs are associated to the input by the aria-describedby attribute - #18404",
+      "[Improved] Add VapourSynth script files (.vpy) to test/x-python - #18364. Thanks @couleurm!",
+      "[Improved] The text contrast of tutorial steps when closed is 4.5:1 - #18342",
+      "[Improved] Upgrade to Electron v28.2.3 - #18185",
+      "[Removed] Remove support for macOS 10.13 and 10.14 - #18316"
+    ],
+    "3.3.14-beta2": [
+      "[Fixed] The tab panel semantics in the \"Publish Repository\" and \"Clone a Repository\" are announced by screen readers - #18408",
+      "[Fixed] The check all button in the diff always only represents one selectable group - #18422",
+      "[Improved] The force push warning in the push dropdown now has a contrast of 4.5:1 - #18415"
+    ],
+    "3.3.14-beta1": [
+      "[Fixed] Images diffs of less than 200px in width do not render with a zero width for diff views other than `2-up` - #18405",
+      "[Fixed] Fix list accessibility semantics of the Pull Request list - #18397",
+      "[Fixed] Fix screen reader support of warning dialogs - #18371",
+      "[Fixed] Selecting the \"Configure manually\" radio option does not cause unexpected focus shift to the name input in the Git Configuration page of the welcome flow - #18341",
+      "[Fixed] All dialogs can be closed by pressing Esc - #18335",
+      "[Improved] Hypen replacement and invalid sanitized name warnings and errors in the create branch and create repository dialogs are associated to the input by the aria-describedby attribute - #18404",
+      "[Improved] Add VapourSynth script files (.vpy) to test/x-python - #18364. Thanks @couleurm!",
+      "[Improved] The text contrast of tutorial steps when closed is 4.5:1 - #18342"
+    ],
+    "3.3.13": [
+      "[Fixed] Fix layout issues in 2-up image diffing when images are too small - #18313",
+      "[Fixed] The \"Show whitespace changes?\" popover can be closed by pressing Escape - #18314",
+      "[Fixed] Added announcing the number of results to the diff search via screen readers - #18306",
+      "[Improved] Git errors due to bad config values are surfaced in the UI - #18230",
+      "[Improved] The pull request check run popover is now keyboard accessible - #18276",
+      "[Improved] The pull request check run popover button is now keyboard accessible - #18268",
+      "[Improved] Add the aria-label attribute to our markdown iframes to clarify their purpose to users of screen readers in browse mode.  - #18277",
+      "[Improved] Add support for newer versions of Alacritty shell - #16614. Thanks @lhvy!",
+      "[Improved] Upgrade embedded Git to v2.43.3 on macOS, and to v2.43.0.windows.1 on Windows, and Git LFS to v3.5.1 - #18292"
+    ],
     "3.3.13-beta1": [
       "[Fixed] Fix layout issues in 2-up image diffing when images are too small - #18313",
       "[Fixed] The \"Show whitespace changes?\" popover can be closed by pressing Escape - #18314",
